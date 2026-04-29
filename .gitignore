@@ -1,0 +1,99 @@
+# -----------------------------
+# Operating System / Archive Metadata
+# -----------------------------
+.DS_Store
+.AppleDouble/
+.LSOverride
+__MACOSX/
+._*
+
+# -----------------------------
+# Python Runtime Artifacts
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# -----------------------------
+# Virtual Environments
+# -----------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# -----------------------------
+# IDE / Editor Files
+# -----------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# -----------------------------
+# Local Environment and Secrets
+# -----------------------------
+.env
+.env.*
+!.env.example
+*.local
+*.secrets
+secrets/
+
+# -----------------------------
+# Generated TLS, Certificate, and Key Material
+# Do not commit deployment-specific certificates or private keys.
+# -----------------------------
+certs_dev/*
+certs_network/*
+!certs_dev/.gitkeep
+!certs_network/.gitkeep
+
+*.key
+*.pem
+*.p12
+*.pfx
+*.csr
+*.srl
+*.crt
+
+# -----------------------------
+# Server Database and Generated Server State
+# Keep schema files, ignore runtime DB/key files.
+# -----------------------------
+db/*.sqlite
+db/*.sqlite3
+db/*.db
+db/*.db-journal
+db/*.sqlite-wal
+db/*.sqlite-shm
+db/*.sqlite3-wal
+db/*.sqlite3-shm
+db/server_master.key
+
+!db/schema.sql
+!db/init.sql
+!db/migrations/
+!db/migrations/*.sql
+
+# -----------------------------
+# Client Profiles and Bootstrap Bundles
+# -----------------------------
+client_profiles/
+client_bootstrap/*
+!client_bootstrap/.gitkeep
+*.bootstrap.json
+client_bootstrap.zip
+*_bootstrap.zip
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+logs/
+
