@@ -1,0 +1,13 @@
+./Screenshot_001.png
+./Screenshot_002.jpg
+./Screenshot_003.jpg
+./Screenshot_004.jpg
+./Screenshot_005.jpg
+./Screenshot_006.png
+./Screenshot_007.png
+./Screenshot_008.png
+./Screenshot_009.png
+./Screenshot_010.png
+./Screenshot_011.png
+./Screenshot_012.png
+./Screenshot_013.png
